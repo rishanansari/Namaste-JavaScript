@@ -1,4 +1,4 @@
-How javascript work.
+How javascript work?
 
 Everything in JS happens inside an execution context.
 

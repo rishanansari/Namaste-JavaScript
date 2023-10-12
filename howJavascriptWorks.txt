@@ -1,0 +1,15 @@
+How javascript work.
+
+Everything in JS happens inside an execution context.
+
+Execution Context-> Two component : memory component(variable environment) and code component(thread of execution).
+
+memory component -> It contains variable and function as key value pairs.
+code component -> Where the whole code execute.
+
+javascript is a synchronous(specific order) single-threaded(one command at a time) language.
+
+
+
+
+

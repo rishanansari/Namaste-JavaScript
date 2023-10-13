@@ -1,4 +1,4 @@
-How javascript work?
+How javascript works behind the scene?
 
 Everything in JS happens inside an execution context.
 

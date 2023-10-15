@@ -1,0 +1,38 @@
+var n=2;
+function square(num){
+    var ans = num * num;
+    return ans;
+}
+
+var square2 = square(n)
+var square4 = square(4)
+
+//Execution
+2-phase -> memory creation phase and code execution phase.
+
+memory creation phase:
+n: undefined
+square : {...whole function as it is}
+square2:undefined
+square4:undefined
+
+Then
+code execution phase: line by line execution will happen.
+and assign the value to variable and functions.
+
+here in the code the line number 1 assign the value 2 to n and replace the value undefined to 2.
+
+now 2 -5 nothing to do with that.
+
+line number 7 the function invokation square()-> whenever functions are invoked a brand new execution context create and it contain again memory and code phase.
+
+go inside the function now -> num :undefined , ans : undefined in memory creation phase
+num -> n -> 2.
+ans - 2*2 -> 4.
+return ans. - retrun the control of the program to the place where the function was invoked. -> line NO 7.
+
+again the same exectuion for the square4()----
+
+whole local and global execution context deleted...
+
+ 

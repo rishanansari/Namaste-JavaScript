@@ -1,3 +1,2 @@
-Hoisting in javascript : we can access the variables and functions even before intilizaed.
-without any error.
+Hoisting in javascript : we can access the variables and functions even before initialized without any error.
 

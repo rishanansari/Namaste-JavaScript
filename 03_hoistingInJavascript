@@ -8,6 +8,7 @@ var x = 7;
 function getName(){
     console.log("Namaste JavaScript")
 }
+console.log(getName) // it will give the whole function as in out put.
 
 special value undefined getting irrespective of error.
 

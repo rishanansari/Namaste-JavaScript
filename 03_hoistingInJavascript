@@ -1,2 +1,14 @@
 Hoisting in javascript : we can access the variables and functions even before initialized without any error.
 Hello World! Let go deep dive into Hoisting in JavaScript
+
+getName() //Namaste JavaScript 
+console.log(x); //undefined ->special value.
+
+var x = 7;
+function getName(){
+    console.log("Namaste JavaScript")
+}
+
+special value undefined getting irrespective of error.
+
+if the var x = 7 not declare then it will show error : x is not define.
